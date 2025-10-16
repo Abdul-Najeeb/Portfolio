@@ -1,0 +1,143 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90vw;
+        margin-inline: auto;
+    }
+
+    .section-2 .sec-2-wrapper {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .section-1 {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .section-2-right,
+    .section-2-left {
+        width: 100%;
+    }
+
+    .btn-grad {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .left button {
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    .section-2-right p {
+        text-align: center;
+        width: auto;
+    }
+
+    nav,
+    .links {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 2.50vw;
+    }
+
+    .left * {
+        margin-block: 2vh;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .container {
+        width: 90vw;
+    }
+
+    .section-2 .sec-2-wrapper {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .section-1 {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .section-2-right,
+    .section-2-left {
+        width: 100%;
+    }
+
+    .btn-grad {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .left button {
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    .section-2-right p {
+        text-align: center;
+        width: auto;
+    }
+
+    nav,
+    .links {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 2.50vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    h1 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 1.3vw;
+    }
+}
